@@ -2,7 +2,6 @@
   <head>
     <meta charset="UTF-8">
     <title>发起get请求，使用返回数据设置模板</title>
-    <link rel="stylesheet" href="/public/css/news.css" />
   </head>
   <body>
     <ul class="news-view view">

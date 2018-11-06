@@ -2,6 +2,7 @@ const Service = require('egg').Service;
 
 class News2Service extends Service {
   async list() {
+    console.log(this);
     const { serverUrl } = this.config.news2;
     const result = await this.ctx.curl(`${serverUrl}`, { dataType: 'json' });
     return result.data;
